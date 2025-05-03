@@ -1,0 +1,134 @@
+
+#foto-redonda {
+  width: 150px; /* Largura do círculo */
+  height: 150px; /* Altura do círculo */
+  border-radius: 50%; /* Define a imagem como um círculo */
+  object-fit: cover; /* Garante que a imagem preencha o círculo sem distorções */
+}
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #e6e0ec;
+  color: #333;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.resume {
+  display: flex;
+  width: 850px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Coluna esquerda */
+.left-column {
+  background: #f9f7fc;
+  width: 35%;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.left-column h1 {
+  font-size: 14px
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.job-title {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Seções da esquerda */
+.left-column section {
+  margin-bottom: 25px;
+}
+
+.left-column h2 {
+  font-size: 14px;
+  color: #444;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.left-column ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.left-column li {
+  margin-bottom: 6px;
+  color: #555;
+}
+
+/* Barras de idioma */
+.bar {
+  height: 6px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #d1cde4;
+}
+.bar.full {
+  width: 100%;
+  background: #8268c0;
+}
+.bar.partial {
+  width: 60%;
+  background: #8268c0;
+}
+
+/* Coluna direita */
+.right-column {
+  width: 65%;
+  padding: 30px;
+}
+
+.right-column section {
+  margin-bottom: 30px;
+}
+
+.right-column h2 {
+  font-size: 16px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.right-column p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.right-column ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: -5px;
+}
+
+.right-column li {
+  margin-bottom: 5px;
+}
+
