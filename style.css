@@ -1,12 +1,12 @@
 
 #foto-redonda {
-  width: 150px; /* Largura do círculo */
-  height: 150px; /* Altura do círculo */
-  border-radius: 50%; /* Define a imagem como um círculo */
-  object-fit: cover; /* Garante que a imagem preencha o círculo sem distorções */
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%; 
+  object-fit: cover; 
 }
-/* Reset básico */
-* {
+
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
